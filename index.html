@@ -154,8 +154,6 @@
             <!-- Icon Divider-->
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
             </div>
             <!-- About Section Content-->
             <div class="row">
@@ -178,7 +176,7 @@
     <section class="page-section" id="contact">
         <div class="container">
             <!-- Contact Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Order/Contact</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
@@ -193,7 +191,7 @@
                     <!-- To make this form functional, sign up at-->
                     <!-- https://startbootstrap.com/solution/contact-forms-->
                     <!-- to get an API token!-->
-                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <form action="https://mailthis.to/yamanekenzi@gmail.com" method="POST" encType="multipart/form-data">
                         <!-- Name input-->
                         <div class="form-floating mb-3">
                             <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
@@ -207,16 +205,10 @@
                             <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                             <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                         </div>
-                        <!-- Phone number input-->
-                        <div class="form-floating mb-3">
-                            <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                            <label for="phone">Phone number</label>
-                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                        </div>
                         <!-- Message input-->
                         <div class="form-floating mb-3">
                             <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                            <label for="message">Message</label>
+                            <label for="message">Order and your address</label>
                             <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                         </div>
                         <!-- Submit success message-->
