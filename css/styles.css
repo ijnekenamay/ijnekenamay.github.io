@@ -8406,7 +8406,7 @@ fieldset:disabled .btn {
 .bg-primary {
     --bs-bg-opacity: 1;
     background-image: url(/assets/img/portfolio/steve-harvey-j2f_0f8C5XA-unsplash.jpg)!important;
-    /*background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;*/
+    background-size: cover;
 }
 
 .bg-secondary {
@@ -11136,7 +11136,7 @@ html {
 
 .divider-custom .divider-custom-line {
     width: 100%;
-    max-width: 7rem;
+    max-width: 10rem;
     height: 0.25rem;
     background-color: #2c3e50;
     border-radius: 1rem;
