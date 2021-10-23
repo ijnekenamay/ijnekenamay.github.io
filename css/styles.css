@@ -8403,12 +8403,16 @@ fieldset:disabled .btn {
     --bs-text-opacity: 1;
 }
 
-.bg-primary {
+.bg-main {
     --bs-bg-opacity: 1;
     background: /* top, transparent black, faked with gradient */
     linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), /* bottom, image */
     url(/assets/img/portfolio/steve-harvey-j2f_0f8C5XA-unsplash.jpg)!important;
     background-size: cover;
+}
+
+.bg-primary {
+    background-color: #17a2b8!important;
 }
 
 .bg-secondary {
