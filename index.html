@@ -200,7 +200,7 @@
                         </div>
                         <!-- Email address input-->
                         <div class="form-floating mb-3">
-                            <input class="form-control" id="email" type="email" placeholder="your Email address" data-sb-validations="required,email" name="_replyto"/>
+                            <input class="form-control" id="email" type="email" placeholder="your Email address" data-sb-validations="required,email" name="_replyto" />
                             <label for="email">Email address</label>
                             <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                             <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
@@ -230,8 +230,8 @@
                         <div class="d-none" id="submitErrorMessage">
                             <div class="text-center text-danger mb-3">Error sending message!</div>
                         </div>
-                        <!-- Submit Button-->
-                        <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit" value="Send">Send</button>
+                        <!-- Submit Button<button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit" value="Send">Send</button>-->
+                        <input type="submit" name="submit" value="Send" class="btn btn-primary btn-xl disabled" id="submitButton">
                     </form>
                 </div>
             </div>
