@@ -2127,7 +2127,7 @@ progress {
     margin-inline-end: 0.75rem;
     color: #212529;
     background-color: #e9ecef;
-    pointer-events: auto;
+    pointer-events: none;
     border-color: inherit;
     border-style: solid;
     border-width: 0;
