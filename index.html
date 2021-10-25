@@ -231,8 +231,11 @@
                         <input type="submit" name="submit" value="Send" class="btn btn-primary btn-xl" id="submitButton">
                     </form>
                     <form action="http://formspree.io/yamanekenzi@gmail.com">
-                        <input type="email" name="_replyto">
-                        <textarea name="body">
+                        <input class="form-control" id="email" type="email" placeholder="your Email address" data-sb-validations="required,email" name="_replyto">
+                        <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" name="name" />
+                        <label for="name">Full name</label>
+                        <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required" name="body"></textarea>
+                        <label for="message">Order and your address</label>
                         </textarea><input type="submit" value="Send"></form>
                 </div>
             </div>
